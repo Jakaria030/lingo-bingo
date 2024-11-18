@@ -1,0 +1,1533 @@
+[
+    {
+      "id": "word001",
+      "word": "Freund",
+      "pronunciation": "Froint",
+      "meaning": "Friend",
+      "part_of_speech": "Noun",
+      "difficulty": "Easy",
+      "lesson_no": 1,
+      "when_to_say": "Used to refer to a close companion or someone you trust.",
+      "example": [
+        {
+          "german": "Mein Freund hilft mir bei den Hausaufgaben.",
+          "pronunciation": "Mine Froint hilft meer bye den Hows-owf-gah-ben",
+          "meaning": "My friend helps me with the homework."
+        }
+      ]
+    },
+    {
+      "id": "word002",
+      "word": "Buch",
+      "pronunciation": "Booch",
+      "meaning": "Book",
+      "part_of_speech": "Noun",
+      "difficulty": "Easy",
+      "lesson_no": 2,
+      "when_to_say": "Used to refer to a physical or digital book.",
+      "example": [
+        {
+          "german": "Ich lese ein interessantes Buch.",
+          "pronunciation": "Ish lay-zeh ine interesting-es Booch",
+          "meaning": "I am reading an interesting book."
+        }
+      ]
+    },
+    {
+      "id": "word003",
+      "word": "Haus",
+      "pronunciation": "House",
+      "meaning": "House",
+      "part_of_speech": "Noun",
+      "difficulty": "Easy",
+      "lesson_no": 3,
+      "when_to_say": "Used to refer to a building where people live.",
+      "example": [
+        {
+          "german": "Das Haus ist sehr groß.",
+          "pronunciation": "Das House ist sehr gross",
+          "meaning": "The house is very big."
+        }
+      ]
+    },
+    {
+      "id": "word004",
+      "word": "Hund",
+      "pronunciation": "Hoo-nd",
+      "meaning": "Dog",
+      "part_of_speech": "Noun",
+      "difficulty": "Easy",
+      "lesson_no": 4,
+      "when_to_say": "Used to refer to a domestic dog.",
+      "example": [
+        {
+          "german": "Mein Hund liebt es, zu spielen.",
+          "pronunciation": "Mine Hoo-nd leebt es, tsoo shpee-len",
+          "meaning": "My dog loves to play."
+        }
+      ]
+    },
+    {
+      "id": "word005",
+      "word": "Katze",
+      "pronunciation": "Kats-eh",
+      "meaning": "Cat",
+      "part_of_speech": "Noun",
+      "difficulty": "Easy",
+      "lesson_no": 5,
+      "when_to_say": "Used to refer to a domestic cat.",
+      "example": [
+        {
+          "german": "Die Katze schläft auf dem Sofa.",
+          "pronunciation": "Dee Kats-eh shleeft owf dem Zoh-fah",
+          "meaning": "The cat sleeps on the sofa."
+        }
+      ]
+    },
+    {
+      "id": "word006",
+      "word": "Tisch",
+      "pronunciation": "Tish",
+      "meaning": "Table",
+      "part_of_speech": "Noun",
+      "difficulty": "Easy",
+      "lesson_no": 6,
+      "when_to_say": "Used to refer to a flat surface used for work or dining.",
+      "example": [
+        {
+          "german": "Der Tisch ist aus Holz.",
+          "pronunciation": "Dair Tish ist owss Holtz",
+          "meaning": "The table is made of wood."
+        }
+      ]
+    },
+    {
+      "id": "word007",
+      "word": "Auto",
+      "pronunciation": "Ow-toh",
+      "meaning": "Car",
+      "part_of_speech": "Noun",
+      "difficulty": "Easy",
+      "lesson_no": 7,
+      "when_to_say": "Used to refer to an automobile.",
+      "example": [
+        {
+          "german": "Ich fahre mit dem Auto zur Arbeit.",
+          "pronunciation": "Ish fah-rah mit dem Ow-toh tsoor Ar-bite",
+          "meaning": "I drive to work with the car."
+        }
+      ]
+    },
+    {
+      "id": "word008",
+      "word": "Apfel",
+      "pronunciation": "Ap-fel",
+      "meaning": "Apple",
+      "part_of_speech": "Noun",
+      "difficulty": "Easy",
+      "lesson_no": 8,
+      "when_to_say": "Used to refer to the fruit, apple.",
+      "example": [
+        {
+          "german": "Ich esse einen Apfel.",
+          "pronunciation": "Ish ess-eh ine-en Ap-fel",
+          "meaning": "I am eating an apple."
+        }
+      ]
+    },
+    {
+      "id": "word009",
+      "word": "Schule",
+      "pronunciation": "Shool-eh",
+      "meaning": "School",
+      "part_of_speech": "Noun",
+      "difficulty": "Easy",
+      "lesson_no": 9,
+      "when_to_say": "Used to refer to an educational institution.",
+      "example": [
+        {
+          "german": "Die Schule beginnt um 8 Uhr.",
+          "pronunciation": "Dee Shool-eh be-gint oom Acht Oor",
+          "meaning": "School starts at 8 o'clock."
+        }
+      ]
+    },
+    {
+      "id": "word010",
+      "word": "Lehrer",
+      "pronunciation": "Lair-er",
+      "meaning": "Teacher",
+      "part_of_speech": "Noun",
+      "difficulty": "Easy",
+      "lesson_no": 10,
+      "when_to_say": "Used to refer to a male teacher.",
+      "example": [
+        {
+          "german": "Der Lehrer erklärt die Aufgabe.",
+          "pronunciation": "Dair Lair-er air-klairt dee Owf-gah-beh",
+          "meaning": "The teacher explains the task."
+        }
+      ]
+    },
+    {
+        "id": "word011",
+        "word": "Stuhl",
+        "pronunciation": "Shtoohl",
+        "meaning": "Chair",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 1,
+        "when_to_say": "Used to refer to a piece of furniture for sitting.",
+        "example": [
+        {
+            "german": "Der Stuhl ist sehr bequem.",
+            "pronunciation": "Dair Shtoohl ist sehr bek-veem",
+            "meaning": "The chair is very comfortable."
+        }
+        ]
+    },
+    {
+        "id": "word012",
+        "word": "Fenster",
+        "pronunciation": "Fen-ster",
+        "meaning": "Window",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 2,
+        "when_to_say": "Used to refer to an opening in the wall covered with glass.",
+        "example": [
+        {
+            "german": "Das Fenster ist offen.",
+            "pronunciation": "Das Fen-ster ist off-en",
+            "meaning": "The window is open."
+        }
+        ]
+    },
+    {
+        "id": "word013",
+        "word": "Zug",
+        "pronunciation": "Tsoog",
+        "meaning": "Train",
+        "part_of_speech": "Noun",
+        "difficulty": "Medium",
+        "lesson_no": 3,
+        "when_to_say": "Used to refer to a railroad vehicle.",
+        "example": [
+        {
+            "german": "Ich fahre mit dem Zug nach Berlin.",
+            "pronunciation": "Ish fah-rah mit dem Tsoog nahkh Bair-leen",
+            "meaning": "I am traveling by train to Berlin."
+        }
+        ]
+    },
+    {
+        "id": "word014",
+        "word": "Arbeit",
+        "pronunciation": "Ar-bite",
+        "meaning": "Work",
+        "part_of_speech": "Noun",
+        "difficulty": "Medium",
+        "lesson_no": 4,
+        "when_to_say": "Used to refer to work or a job.",
+        "example": [
+        {
+            "german": "Ich muss morgen arbeiten.",
+            "pronunciation": "Ish moos mor-gen Ar-bite-en",
+            "meaning": "I have to work tomorrow."
+        }
+        ]
+    },
+    {
+        "id": "word015",
+        "word": "Essen",
+        "pronunciation": "Es-sen",
+        "meaning": "Food / To eat",
+        "part_of_speech": "Noun / Verb",
+        "difficulty": "Easy",
+        "lesson_no": 5,
+        "when_to_say": "Used to refer to food or the act of eating.",
+        "example": [
+        {
+            "german": "Wir essen zu Mittag.",
+            "pronunciation": "Veer Es-sen tsoo Mitt-ahg",
+            "meaning": "We are eating lunch."
+        }
+        ]
+    },
+    {
+        "id": "word016",
+        "word": "Schreibtisch",
+        "pronunciation": "Shryp-tish",
+        "meaning": "Desk",
+        "part_of_speech": "Noun",
+        "difficulty": "Medium",
+        "lesson_no": 6,
+        "when_to_say": "Used to refer to a table used for work, often with a chair.",
+        "example": [
+        {
+            "german": "Der Schreibtisch ist ordentlich.",
+            "pronunciation": "Dair Shryp-tish ist ord-nent-lee",
+            "meaning": "The desk is tidy."
+        }
+        ]
+    },
+    {
+        "id": "word017",
+        "word": "Straße",
+        "pronunciation": "Shtrah-seh",
+        "meaning": "Street",
+        "part_of_speech": "Noun",
+        "difficulty": "Medium",
+        "lesson_no": 7,
+        "when_to_say": "Used to refer to a road or path for vehicles and pedestrians.",
+        "example": [
+        {
+            "german": "Die Straße ist sehr lang.",
+            "pronunciation": "Dee Shtrah-seh ist sehr lang",
+            "meaning": "The street is very long."
+        }
+        ]
+    },
+    {
+        "id": "word018",
+        "word": "Bier",
+        "pronunciation": "Beer",
+        "meaning": "Beer",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 8,
+        "when_to_say": "Used to refer to the alcoholic beverage made from fermented grains.",
+        "example": [
+        {
+            "german": "Ich trinke ein Bier.",
+            "pronunciation": "Ish trin-ke ine Beer",
+            "meaning": "I am drinking a beer."
+        }
+        ]
+    },
+    {
+        "id": "word019",
+        "word": "Vogel",
+        "pronunciation": "Fo-gel",
+        "meaning": "Bird",
+        "part_of_speech": "Noun",
+        "difficulty": "Medium",
+        "lesson_no": 9,
+        "when_to_say": "Used to refer to a flying animal, usually with feathers.",
+        "example": [
+        {
+            "german": "Der Vogel fliegt im Himmel.",
+            "pronunciation": "Dair Fo-gel fleet im Him-mel",
+            "meaning": "The bird is flying in the sky."
+        }
+        ]
+    },
+    {
+        "id": "word020",
+        "word": "Freizeit",
+        "pronunciation": "Fry-tsyt",
+        "meaning": "Leisure",
+        "part_of_speech": "Noun",
+        "difficulty": "Medium",
+        "lesson_no": 10,
+        "when_to_say": "Used to refer to time free from work or other obligations.",
+        "example": [
+        {
+            "german": "Ich habe viel Freizeit am Wochenende.",
+            "pronunciation": "Ish hab-eh veel Fry-tsyt am Voh-kend-eh",
+            "meaning": "I have a lot of free time on the weekend."
+        }
+        ]
+    },
+    {
+        "id": "word021",
+        "word": "Sonne",
+        "pronunciation": "Zon-neh",
+        "meaning": "Sun",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 1,
+        "when_to_say": "Used to refer to the star that provides light and warmth to the Earth.",
+        "example": [
+        {
+            "german": "Die Sonne scheint heute sehr stark.",
+            "pronunciation": "Dee Zon-neh shynt hoy-teh sehr shtark",
+            "meaning": "The sun is shining very strongly today."
+        }
+        ]
+    },
+    {
+        "id": "word022",
+        "word": "Mond",
+        "pronunciation": "Moh-nd",
+        "meaning": "Moon",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 2,
+        "when_to_say": "Used to refer to the natural satellite of the Earth.",
+        "example": [
+        {
+            "german": "Der Mond leuchtet nachts.",
+            "pronunciation": "Dair Moh-nd loy-chtet nakhts",
+            "meaning": "The moon shines at night."
+        }
+        ]
+    },
+    {
+        "id": "word023",
+        "word": "Berg",
+        "pronunciation": "Bairg",
+        "meaning": "Mountain",
+        "part_of_speech": "Noun",
+        "difficulty": "Medium",
+        "lesson_no": 3,
+        "when_to_say": "Used to refer to a large natural elevation of the Earth's surface.",
+        "example": [
+        {
+            "german": "Der Berg ist sehr hoch.",
+            "pronunciation": "Dair Bairg ist sehr hoch",
+            "meaning": "The mountain is very high."
+        }
+        ]
+    },
+    {
+        "id": "word024",
+        "word": "See",
+        "pronunciation": "Zay",
+        "meaning": "Lake / Sea",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 4,
+        "when_to_say": "Used to refer to a large body of water.",
+        "example": [
+        {
+            "german": "Wir schwimmen im See.",
+            "pronunciation": "Veer shvimm-en im Zay",
+            "meaning": "We are swimming in the lake."
+        }
+        ]
+    },
+    {
+        "id": "word025",
+        "word": "Regen",
+        "pronunciation": "Ray-gen",
+        "meaning": "Rain",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 5,
+        "when_to_say": "Used to refer to water droplets falling from the sky.",
+        "example": [
+        {
+            "german": "Es regnet heute sehr stark.",
+            "pronunciation": "Es rayg-net hoy-teh sehr shtark",
+            "meaning": "It is raining very heavily today."
+        }
+        ]
+    },
+    {
+        "id": "word026",
+        "word": "Wald",
+        "pronunciation": "Vahlt",
+        "meaning": "Forest",
+        "part_of_speech": "Noun",
+        "difficulty": "Medium",
+        "lesson_no": 6,
+        "when_to_say": "Used to refer to a large area covered chiefly with trees and undergrowth.",
+        "example": [
+        {
+            "german": "Der Wald ist voller Tiere.",
+            "pronunciation": "Dair Vahlt ist foll-er Tee-reh",
+            "meaning": "The forest is full of animals."
+        }
+        ]
+    },
+    {
+        "id": "word027",
+        "word": "Fluss",
+        "pronunciation": "Flooss",
+        "meaning": "River",
+        "part_of_speech": "Noun",
+        "difficulty": "Medium",
+        "lesson_no": 7,
+        "when_to_say": "Used to refer to a natural stream of water flowing toward an ocean, sea, or lake.",
+        "example": [
+        {
+            "german": "Der Fluss fließt schnell.",
+            "pronunciation": "Dair Flooss flee-ehst shnell",
+            "meaning": "The river flows quickly."
+        }
+        ]
+    },
+    {
+        "id": "word028",
+        "word": "Stadt",
+        "pronunciation": "Shtat",
+        "meaning": "City",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 8,
+        "when_to_say": "Used to refer to a large, densely populated area.",
+        "example": [
+        {
+            "german": "Die Stadt ist sehr alt.",
+            "pronunciation": "Dee Shtat ist sehr alt",
+            "meaning": "The city is very old."
+        }
+        ]
+    },
+    {
+        "id": "word029",
+        "word": "Dorf",
+        "pronunciation": "Dorf",
+        "meaning": "Village",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 9,
+        "when_to_say": "Used to refer to a small community or settlement, usually in the countryside.",
+        "example": [
+        {
+            "german": "Ich wohne in einem kleinen Dorf.",
+            "pronunciation": "Ish voh-neh in ine-em klein-en Dorf",
+            "meaning": "I live in a small village."
+        }
+        ]
+    },
+    {
+        "id": "word030",
+        "word": "Land",
+        "pronunciation": "Lahnd",
+        "meaning": "Country / Land",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 10,
+        "when_to_say": "Used to refer to a nation or a region of the Earth.",
+        "example": [
+        {
+            "german": "Deutschland ist ein schönes Land.",
+            "pronunciation": "Doytch-land ist ine shurn-es Lahnd",
+            "meaning": "Germany is a beautiful country."
+        }
+        ]
+    },
+    {
+        "id": "word031",
+        "word": "Auto",
+        "pronunciation": "Ow-toh",
+        "meaning": "Car",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 1,
+        "when_to_say": "Used to refer to a motor vehicle used for transportation.",
+        "example": [
+        {
+            "german": "Mein Auto ist rot.",
+            "pronunciation": "Mine Ow-toh ist roht",
+            "meaning": "My car is red."
+        }
+        ]
+    },
+    {
+        "id": "word032",
+        "word": "Hund",
+        "pronunciation": "Hoo-nd",
+        "meaning": "Dog",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 2,
+        "when_to_say": "Used to refer to a domesticated carnivorous mammal.",
+        "example": [
+        {
+            "german": "Der Hund läuft schnell.",
+            "pronunciation": "Dair Hoo-nd loy-ft shnell",
+            "meaning": "The dog runs fast."
+        }
+        ]
+    },
+    {
+        "id": "word033",
+        "word": "Katze",
+        "pronunciation": "Kaht-zeh",
+        "meaning": "Cat",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 3,
+        "when_to_say": "Used to refer to a small domesticated carnivorous mammal.",
+        "example": [
+        {
+            "german": "Die Katze schläft.",
+            "pronunciation": "Dee Kaht-zeh shlef-t",
+            "meaning": "The cat is sleeping."
+        }
+        ]
+    },
+    {
+        "id": "word034",
+        "word": "Vater",
+        "pronunciation": "Fah-ter",
+        "meaning": "Father",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 4,
+        "when_to_say": "Used to refer to a male parent.",
+        "example": [
+        {
+            "german": "Mein Vater arbeitet in einem Büro.",
+            "pronunciation": "Mine Fah-ter Ar-bite-et in ine-em Boo-roh",
+            "meaning": "My father works in an office."
+        }
+        ]
+    },
+    {
+        "id": "word035",
+        "word": "Mutter",
+        "pronunciation": "Moo-ter",
+        "meaning": "Mother",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 5,
+        "when_to_say": "Used to refer to a female parent.",
+        "example": [
+        {
+            "german": "Meine Mutter kocht das Mittagessen.",
+            "pronunciation": "Mine Moo-ter kohkt das Mitt-ahg-es-sen",
+            "meaning": "My mother is cooking lunch."
+        }
+        ]
+    },
+    {
+        "id": "word036",
+        "word": "Freitag",
+        "pronunciation": "Fry-tahg",
+        "meaning": "Friday",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 6,
+        "when_to_say": "Used to refer to the fifth day of the week.",
+        "example": [
+        {
+            "german": "Am Freitag gehen wir ins Kino.",
+            "pronunciation": "Am Fry-tahg gay-en veer ins Kee-noh",
+            "meaning": "On Friday, we go to the cinema."
+        }
+        ]
+    },
+    {
+        "id": "word037",
+        "word": "Samstag",
+        "pronunciation": "Zahms-tahg",
+        "meaning": "Saturday",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 7,
+        "when_to_say": "Used to refer to the sixth day of the week.",
+        "example": [
+        {
+            "german": "Am Samstag haben wir frei.",
+            "pronunciation": "Am Zahms-tahg hah-ben veer fry",
+            "meaning": "On Saturday, we are free."
+        }
+        ]
+    },
+    {
+        "id": "word038",
+        "word": "Sonntag",
+        "pronunciation": "Zon-tahg",
+        "meaning": "Sunday",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 8,
+        "when_to_say": "Used to refer to the seventh day of the week.",
+        "example": [
+        {
+            "german": "Am Sonntag gehe ich spazieren.",
+            "pronunciation": "Am Zon-tahg gay-eh ish spah-tsee-ren",
+            "meaning": "On Sunday, I go for a walk."
+        }
+        ]
+    },
+    {
+        "id": "word039",
+        "word": "Woche",
+        "pronunciation": "Vo-huh",
+        "meaning": "Week",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 9,
+        "when_to_say": "Used to refer to a period of seven days.",
+        "example": [
+        {
+            "german": "Eine Woche hat sieben Tage.",
+            "pronunciation": "Ih-neh Vo-huh hat zee-ben Tah-geh",
+            "meaning": "A week has seven days."
+        }
+        ]
+    },
+    {
+        "id": "word040",
+        "word": "Jahr",
+        "pronunciation": "Yahr",
+        "meaning": "Year",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 10,
+        "when_to_say": "Used to refer to a period of 365 or 366 days.",
+        "example": [
+        {
+            "german": "Ich bin 20 Jahre alt.",
+            "pronunciation": "Ish bin tswanzig Yahr-eh alt",
+            "meaning": "I am 20 years old."
+        }
+        ]
+    },
+    {
+        "id": "word041",
+        "word": "Arbeit",
+        "pronunciation": "Ar-bite",
+        "meaning": "Work",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 1,
+        "when_to_say": "Used to refer to employment or tasks that require effort.",
+        "example": [
+        {
+            "german": "Ich habe viel Arbeit heute.",
+            "pronunciation": "Ish hah-beh feel Ar-bite hoy-teh",
+            "meaning": "I have a lot of work today."
+        }
+        ]
+    },
+    {
+        "id": "word042",
+        "word": "Schule",
+        "pronunciation": "Shoo-leh",
+        "meaning": "School",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 2,
+        "when_to_say": "Used to refer to an institution for education.",
+        "example": [
+        {
+            "german": "Die Schule beginnt um 8 Uhr.",
+            "pronunciation": "Dee Shoo-leh be-gint oom ahcht Oor",
+            "meaning": "School starts at 8 o'clock."
+        }
+        ]
+    },
+    {
+        "id": "word043",
+        "word": "Lehrer",
+        "pronunciation": "Lair-er",
+        "meaning": "Teacher (Male)",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 3,
+        "when_to_say": "Used to refer to a male person who teaches.",
+        "example": [
+        {
+            "german": "Der Lehrer erklärt die Aufgabe.",
+            "pronunciation": "Dair Lair-er erk-ler-t dee Owf-gah-beh",
+            "meaning": "The teacher explains the task."
+        }
+        ]
+    },
+    {
+        "id": "word044",
+        "word": "Lehrerin",
+        "pronunciation": "Lair-er-in",
+        "meaning": "Teacher (Female)",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 4,
+        "when_to_say": "Used to refer to a female person who teaches.",
+        "example": [
+        {
+            "german": "Die Lehrerin hilft mir mit der Aufgabe.",
+            "pronunciation": "Dee Lair-er-in hilt meer mit dair Owf-gah-beh",
+            "meaning": "The teacher (female) helps me with the task."
+        }
+        ]
+    },
+    {
+        "id": "word045",
+        "word": "Freizeit",
+        "pronunciation": "Fry-tsight",
+        "meaning": "Leisure time",
+        "part_of_speech": "Noun",
+        "difficulty": "Medium",
+        "lesson_no": 5,
+        "when_to_say": "Used to refer to time free from work or responsibilities.",
+        "example": [
+        {
+            "german": "In meiner Freizeit spiele ich Basketball.",
+            "pronunciation": "In mine-er Fry-tsight shpee-leh ish Basketball",
+            "meaning": "In my free time, I play basketball."
+        }
+        ]
+    },
+    {
+        "id": "word046",
+        "word": "Essen",
+        "pronunciation": "Es-sen",
+        "meaning": "Food / Meal",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 6,
+        "when_to_say": "Used to refer to food or meals.",
+        "example": [
+        {
+            "german": "Das Essen schmeckt sehr gut.",
+            "pronunciation": "Das Es-sen shmehkt sehr goot",
+            "meaning": "The food tastes very good."
+        }
+        ]
+    },
+    {
+        "id": "word047",
+        "word": "Trinken",
+        "pronunciation": "Trin-ken",
+        "meaning": "Drink",
+        "part_of_speech": "Verb",
+        "difficulty": "Easy",
+        "lesson_no": 7,
+        "when_to_say": "Used to refer to the action of consuming liquids.",
+        "example": [
+        {
+            "german": "Ich trinke Wasser.",
+            "pronunciation": "Ish trin-keh Vah-ser",
+            "meaning": "I drink water."
+        }
+        ]
+    },
+    {
+        "id": "word048",
+        "word": "Kaffee",
+        "pronunciation": "Kah-feh",
+        "meaning": "Coffee",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 8,
+        "when_to_say": "Used to refer to the brewed beverage made from coffee beans.",
+        "example": [
+        {
+            "german": "Ich trinke jeden Morgen Kaffee.",
+            "pronunciation": "Ish trin-keh yeh-den Mor-gen Kah-feh",
+            "meaning": "I drink coffee every morning."
+        }
+        ]
+    },
+    {
+        "id": "word049",
+        "word": "Tee",
+        "pronunciation": "Teh",
+        "meaning": "Tea",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 9,
+        "when_to_say": "Used to refer to the hot or cold beverage made from tea leaves.",
+        "example": [
+        {
+            "german": "Möchtest du einen Tee?",
+            "pronunciation": "Moech-test doo ine-en Teh",
+            "meaning": "Would you like some tea?"
+        }
+        ]
+    },
+    {
+        "id": "word050",
+        "word": "Brot",
+        "pronunciation": "Broht",
+        "meaning": "Bread",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 10,
+        "when_to_say": "Used to refer to the staple food made from flour, water, and yeast.",
+        "example": [
+        {
+            "german": "Ich esse Brot zum Frühstück.",
+            "pronunciation": "Ish esse Broht tsum Froehs-tueck",
+            "meaning": "I eat bread for breakfast."
+        }
+        ]
+    },
+    {
+        "id": "word051",
+        "word": "Apfel",
+        "pronunciation": "Ap-fel",
+        "meaning": "Apple",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 1,
+        "when_to_say": "Used to refer to the fruit grown from apple trees.",
+        "example": [
+        {
+            "german": "Der Apfel ist rot.",
+            "pronunciation": "Dair Ap-fel ist roht",
+            "meaning": "The apple is red."
+        }
+        ]
+    },
+    {
+        "id": "word052",
+        "word": "Banane",
+        "pronunciation": "Ba-na-neh",
+        "meaning": "Banana",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 2,
+        "when_to_say": "Used to refer to the elongated fruit with a yellow peel.",
+        "example": [
+        {
+            "german": "Ich esse eine Banane.",
+            "pronunciation": "Ish esse ine-eh Ba-na-neh",
+            "meaning": "I am eating a banana."
+        }
+        ]
+    },
+    {
+        "id": "word053",
+        "word": "Orange",
+        "pronunciation": "Oh-ran-jeh",
+        "meaning": "Orange (Fruit)",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 3,
+        "when_to_say": "Used to refer to the citrus fruit with an orange peel.",
+        "example": [
+        {
+            "german": "Die Orange ist süß.",
+            "pronunciation": "Dee Oh-ran-jeh ist sue-ss",
+            "meaning": "The orange is sweet."
+        }
+        ]
+    },
+    {
+        "id": "word054",
+        "word": "Gemüse",
+        "pronunciation": "Ge-mue-zeh",
+        "meaning": "Vegetable",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 4,
+        "when_to_say": "Used to refer to edible plants or plant parts.",
+        "example": [
+        {
+            "german": "Ich esse gerne Gemüse.",
+            "pronunciation": "Ish esse gehr-neh Ge-mue-zeh",
+            "meaning": "I like eating vegetables."
+        }
+        ]
+    },
+    {
+        "id": "word055",
+        "word": "Fisch",
+        "pronunciation": "Fish",
+        "meaning": "Fish",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 5,
+        "when_to_say": "Used to refer to aquatic animals that live in water.",
+        "example": [
+        {
+            "german": "Der Fisch schwimmt im Wasser.",
+            "pronunciation": "Dair Fish shvimmt im Vah-ser",
+            "meaning": "The fish swims in the water."
+        }
+        ]
+    },
+    {
+        "id": "word056",
+        "word": "Huhn",
+        "pronunciation": "Hoon",
+        "meaning": "Chicken",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 6,
+        "when_to_say": "Used to refer to a domestic fowl, often raised for its eggs or meat.",
+        "example": [
+        {
+            "german": "Das Huhn legt ein Ei.",
+            "pronunciation": "Das Hoon legt ine Eye",
+            "meaning": "The chicken lays an egg."
+        }
+        ]
+    },
+    {
+        "id": "word057",
+        "word": "Koch",
+        "pronunciation": "Kokh",
+        "meaning": "Cook (Male)",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 7,
+        "when_to_say": "Used to refer to a male person who prepares food.",
+        "example": [
+        {
+            "german": "Der Koch bereitet das Mittagessen zu.",
+            "pronunciation": "Dair Kokh be-rai-tet das Mitt-ahg-es-sen tsoo",
+            "meaning": "The cook is preparing the lunch."
+        }
+        ]
+    },
+    {
+        "id": "word058",
+        "word": "Köchin",
+        "pronunciation": "Ker-chin",
+        "meaning": "Cook (Female)",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 8,
+        "when_to_say": "Used to refer to a female person who prepares food.",
+        "example": [
+        {
+            "german": "Die Köchin kocht das Abendessen.",
+            "pronunciation": "Dee Ker-chin kohkt das Ah-bent-es-sen",
+            "meaning": "The cook (female) is cooking dinner."
+        }
+        ]
+    },
+    {
+        "id": "word059",
+        "word": "Zucker",
+        "pronunciation": "Tsoo-ker",
+        "meaning": "Sugar",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 9,
+        "when_to_say": "Used to refer to the sweet crystalline substance used in food.",
+        "example": [
+        {
+            "german": "Ich nehme Zucker in meinen Tee.",
+            "pronunciation": "Ish neh-meh Tsoo-ker in mine-en Teh",
+            "meaning": "I take sugar in my tea."
+        }
+        ]
+    },
+    {
+        "id": "word060",
+        "word": "Salz",
+        "pronunciation": "Zalts",
+        "meaning": "Salt",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 10,
+        "when_to_say": "Used to refer to the white crystalline substance used for seasoning food.",
+        "example": [
+        {
+            "german": "Füge Salz zum Essen hinzu.",
+            "pronunciation": "Fue-geh Zalts tsum Es-sen hin-tsu",
+            "meaning": "Add salt to the food."
+        }
+        ]
+    },
+    {
+        "id": "word061",
+        "word": "Haus",
+        "pronunciation": "House",
+        "meaning": "House",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 1,
+        "when_to_say": "Used to refer to a building or structure used as a residence.",
+        "example": [
+        {
+            "german": "Ich wohne in einem großen Haus.",
+            "pronunciation": "Ish voh-neh in ine-em groh-sen House",
+            "meaning": "I live in a big house."
+        }
+        ]
+    },
+    {
+        "id": "word062",
+        "word": "Wohnung",
+        "pronunciation": "Voh-nung",
+        "meaning": "Apartment",
+        "part_of_speech": "Noun",
+        "difficulty": "Medium",
+        "lesson_no": 2,
+        "when_to_say": "Used to refer to a self-contained housing unit that is part of a building.",
+        "example": [
+        {
+            "german": "Meine Wohnung ist im dritten Stock.",
+            "pronunciation": "Mine-eh Voh-nung ist im dritt-en Shtock",
+            "meaning": "My apartment is on the third floor."
+        }
+        ]
+    },
+    {
+        "id": "word063",
+        "word": "Straße",
+        "pronunciation": "Shtrah-seh",
+        "meaning": "Street",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 3,
+        "when_to_say": "Used to refer to a paved road in a city or town.",
+        "example": [
+        {
+            "german": "Die Straße ist sehr lang.",
+            "pronunciation": "Dee Shtrah-seh ist sehr lang",
+            "meaning": "The street is very long."
+        }
+        ]
+    },
+    {
+        "id": "word064",
+        "word": "Auto",
+        "pronunciation": "Ow-toh",
+        "meaning": "Car",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 4,
+        "when_to_say": "Used to refer to a motor vehicle used for transporting people.",
+        "example": [
+        {
+            "german": "Mein Auto ist rot.",
+            "pronunciation": "Mine Ow-toh ist roht",
+            "meaning": "My car is red."
+        }
+        ]
+    },
+    {
+        "id": "word065",
+        "word": "Fahrrad",
+        "pronunciation": "Far-rad",
+        "meaning": "Bicycle",
+        "part_of_speech": "Noun",
+        "difficulty": "Medium",
+        "lesson_no": 5,
+        "when_to_say": "Used to refer to a two-wheeled vehicle powered by pedaling.",
+        "example": [
+        {
+            "german": "Ich fahre mit dem Fahrrad zur Arbeit.",
+            "pronunciation": "Ish fah-reh mit dem Far-rad tsur Ar-bite",
+            "meaning": "I ride my bicycle to work."
+        }
+        ]
+    },
+    {
+        "id": "word066",
+        "word": "Bus",
+        "pronunciation": "Boos",
+        "meaning": "Bus",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 6,
+        "when_to_say": "Used to refer to a large motor vehicle for transporting passengers.",
+        "example": [
+        {
+            "german": "Ich nehme den Bus zur Schule.",
+            "pronunciation": "Ish neh-meh den Boos tsur Shoo-leh",
+            "meaning": "I take the bus to school."
+        }
+        ]
+    },
+    {
+        "id": "word067",
+        "word": "Zug",
+        "pronunciation": "Tsoog",
+        "meaning": "Train",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 7,
+        "when_to_say": "Used to refer to a series of connected railroad cars.",
+        "example": [
+        {
+            "german": "Der Zug fährt um 10 Uhr ab.",
+            "pronunciation": "Dair Tsoog fährt oom zehn Oor ab",
+            "meaning": "The train departs at 10 o'clock."
+        }
+        ]
+    },
+    {
+        "id": "word068",
+        "word": "Flughafen",
+        "pronunciation": "Flook-ha-fen",
+        "meaning": "Airport",
+        "part_of_speech": "Noun",
+        "difficulty": "Medium",
+        "lesson_no": 8,
+        "when_to_say": "Used to refer to an airport or airfield for passenger flights.",
+        "example": [
+        {
+            "german": "Der Flughafen ist sehr groß.",
+            "pronunciation": "Dair Flook-ha-fen ist sehr grohs",
+            "meaning": "The airport is very big."
+        }
+        ]
+    },
+    {
+        "id": "word069",
+        "word": "Hotel",
+        "pronunciation": "Ho-tel",
+        "meaning": "Hotel",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 9,
+        "when_to_say": "Used to refer to a place offering accommodations for travelers.",
+        "example": [
+        {
+            "german": "Ich übernachte im Hotel.",
+            "pronunciation": "Ish ue-ber-nahkh-te im Ho-tel",
+            "meaning": "I am staying at the hotel."
+        }
+        ]
+    },
+    {
+        "id": "word070",
+        "word": "Bahnhof",
+        "pronunciation": "Bahn-hof",
+        "meaning": "Train station",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 10,
+        "when_to_say": "Used to refer to a place where trains arrive and depart.",
+        "example": [
+        {
+            "german": "Der Bahnhof ist sehr nah.",
+            "pronunciation": "Dair Bahn-hof ist sehr nah",
+            "meaning": "The train station is very close."
+        }
+        ]
+    },
+    {
+        "id": "word071",
+        "word": "Hallo",
+        "pronunciation": "Hah-loh",
+        "meaning": "Hello",
+        "part_of_speech": "Interjection",
+        "difficulty": "Easy",
+        "lesson_no": 1,
+        "when_to_say": "Used as a greeting in informal situations.",
+        "example": [
+        {
+            "german": "Hallo, wie geht es dir?",
+            "pronunciation": "Hah-loh, vee geht es deer?",
+            "meaning": "Hello, how are you?"
+        }
+        ]
+    },
+    {
+        "id": "word072",
+        "word": "Tschüss",
+        "pronunciation": "Chüss",
+        "meaning": "Goodbye",
+        "part_of_speech": "Interjection",
+        "difficulty": "Easy",
+        "lesson_no": 2,
+        "when_to_say": "Used to say goodbye in informal situations.",
+        "example": [
+        {
+            "german": "Tschüss, bis bald!",
+            "pronunciation": "Chüss, bis bahlt!",
+            "meaning": "Goodbye, see you soon!"
+        }
+        ]
+    },
+    {
+        "id": "word073",
+        "word": "Ja",
+        "pronunciation": "Yah",
+        "meaning": "Yes",
+        "part_of_speech": "Adverb",
+        "difficulty": "Easy",
+        "lesson_no": 3,
+        "when_to_say": "Used to affirmatively respond to a question.",
+        "example": [
+        {
+            "german": "Ja, ich verstehe.",
+            "pronunciation": "Yah, ish fer-shteh-eh",
+            "meaning": "Yes, I understand."
+        }
+        ]
+    },
+    {
+        "id": "word074",
+        "word": "Nein",
+        "pronunciation": "Nine",
+        "meaning": "No",
+        "part_of_speech": "Adverb",
+        "difficulty": "Easy",
+        "lesson_no": 4,
+        "when_to say": "Used to negatively respond to a question.",
+        "example": [
+        {
+            "german": "Nein, ich habe keine Zeit.",
+            "pronunciation": "Nine, ish hah-beh kine-eh Tsite",
+            "meaning": "No, I don't have time."
+        }
+        ]
+    },
+    {
+        "id": "word075",
+        "word": "Bitte",
+        "pronunciation": "Bit-teh",
+        "meaning": "Please",
+        "part_of_speech": "Adverb",
+        "difficulty": "Easy",
+        "lesson_no": 5,
+        "when_to_say": "Used to make a polite request or offer.",
+        "example": [
+        {
+            "german": "Bitte, können Sie mir helfen?",
+            "pronunciation": "Bit-teh, kön-nen zee meer hel-fen?",
+            "meaning": "Please, can you help me?"
+        }
+        ]
+    },
+    {
+        "id": "word076",
+        "word": "Entschuldigung",
+        "pronunciation": "Ent-shool-di-goong",
+        "meaning": "Excuse me / Sorry",
+        "part_of_speech": "Noun",
+        "difficulty": "Medium",
+        "lesson_no": 6,
+        "when_to_say": "Used to apologize or get someone's attention.",
+        "example": [
+        {
+            "german": "Entschuldigung, wo ist der Bahnhof?",
+            "pronunciation": "Ent-shool-di-goong, voh ist dair Bahn-hof?",
+            "meaning": "Excuse me, where is the train station?"
+        }
+        ]
+    },
+    {
+        "id": "word077",
+        "word": "Wie",
+        "pronunciation": "Vee",
+        "meaning": "How",
+        "part_of_speech": "Pronoun",
+        "difficulty": "Easy",
+        "lesson_no": 7,
+        "when_to_say": "Used to ask about the manner or state of something.",
+        "example": [
+        {
+            "german": "Wie geht es dir?",
+            "pronunciation": "Vee geht es deer?",
+            "meaning": "How are you?"
+        }
+        ]
+    },
+    {
+        "id": "word078",
+        "word": "Was",
+        "pronunciation": "Vahs",
+        "meaning": "What",
+        "part_of_speech": "Pronoun",
+        "difficulty": "Easy",
+        "lesson_no": 8,
+        "when_to say": "Used to inquire about something or ask for information.",
+        "example": [
+        {
+            "german": "Was machst du?",
+            "pronunciation": "Vahs makhst doo?",
+            "meaning": "What are you doing?"
+        }
+        ]
+    },
+    {
+        "id": "word079",
+        "word": "Wo",
+        "pronunciation": "Voh",
+        "meaning": "Where",
+        "part_of_speech": "Pronoun",
+        "difficulty": "Easy",
+        "lesson_no": 9,
+        "when_to_say": "Used to ask about the location of something.",
+        "example": [
+        {
+            "german": "Wo ist das Restaurant?",
+            "pronunciation": "Voh ist das Res-toh-rahnt?",
+            "meaning": "Where is the restaurant?"
+        }
+        ]
+    },
+    {
+        "id": "word080",
+        "word": "Wann",
+        "pronunciation": "Vahn",
+        "meaning": "When",
+        "part_of_speech": "Pronoun",
+        "difficulty": "Easy",
+        "lesson_no": 10,
+        "when_to_say": "Used to ask about the time or date of an event.",
+        "example": [
+        {
+            "german": "Wann beginnt der Film?",
+            "pronunciation": "Vahn be-gint dair Film?",
+            "meaning": "When does the movie start?"
+        }
+        ]
+    },
+    {
+        "id": "word081",
+        "word": "Morgen",
+        "pronunciation": "Mor-gen",
+        "meaning": "Morning",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 1,
+        "when_to_say": "Used to refer to the early part of the day.",
+        "example": [
+        {
+            "german": "Guten Morgen!",
+            "pronunciation": "Goo-ten Mor-gen!",
+            "meaning": "Good morning!"
+        }
+        ]
+    },
+    {
+        "id": "word082",
+        "word": "Abend",
+        "pronunciation": "Ah-bent",
+        "meaning": "Evening",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 2,
+        "when_to_say": "Used to refer to the time of day after the afternoon.",
+        "example": [
+        {
+            "german": "Guten Abend!",
+            "pronunciation": "Goo-ten Ah-bent!",
+            "meaning": "Good evening!"
+        }
+        ]
+    },
+    {
+        "id": "word083",
+        "word": "Tag",
+        "pronunciation": "Tahg",
+        "meaning": "Day",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 3,
+        "when_to say": "Used to refer to a 24-hour period or daylight hours.",
+        "example": [
+        {
+            "german": "Guten Tag!",
+            "pronunciation": "Goo-ten Tahg!",
+            "meaning": "Good day!"
+        }
+        ]
+    },
+    {
+        "id": "word084",
+        "word": "Nacht",
+        "pronunciation": "Nahkht",
+        "meaning": "Night",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 4,
+        "when_to_say": "Used to refer to the time of day after sunset.",
+        "example": [
+        {
+            "german": "Gute Nacht!",
+            "pronunciation": "Goo-teh Nahkht!",
+            "meaning": "Good night!"
+        }
+        ]
+    },
+    {
+        "id": "word085",
+        "word": "Jahr",
+        "pronunciation": "Yahr",
+        "meaning": "Year",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 5,
+        "when_to_say": "Used to refer to a period of 12 months.",
+        "example": [
+        {
+            "german": "Ein Jahr hat zwölf Monate.",
+            "pronunciation": "Ine Yahr hat zwolf Mo-nah-teh",
+            "meaning": "A year has twelve months."
+        }
+        ]
+    },
+    {
+        "id": "word086",
+        "word": "Monat",
+        "pronunciation": "Mo-naht",
+        "meaning": "Month",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 6,
+        "when_to say": "Used to refer to a period of about 30 days.",
+        "example": [
+        {
+            "german": "Januar ist der erste Monat des Jahres.",
+            "pronunciation": "Yah-noo-ahr ist dair air-steh Mo-naht des Yahr-es",
+            "meaning": "January is the first month of the year."
+        }
+        ]
+    },
+    {
+        "id": "word087",
+        "word": "Woche",
+        "pronunciation": "Voh-khuh",
+        "meaning": "Week",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 7,
+        "when_to say": "Used to refer to a period of seven days.",
+        "example": [
+        {
+            "german": "Eine Woche hat sieben Tage.",
+            "pronunciation": "I-nuh Voh-khuh hat zee-ben Tah-geh",
+            "meaning": "A week has seven days."
+        }
+        ]
+    },
+    {
+        "id": "word088",
+        "word": "Stunde",
+        "pronunciation": "Shtoon-deh",
+        "meaning": "Hour",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 8,
+        "when_to say": "Used to refer to a unit of time equal to 60 minutes.",
+        "example": [
+        {
+            "german": "Es sind zwei Stunden bis zum Ziel.",
+            "pronunciation": "Es zind tswei Shtoon-den bis tsum Tsee-el",
+            "meaning": "It is two hours to the destination."
+        }
+        ]
+    },
+    {
+        "id": "word089",
+        "word": "Minute",
+        "pronunciation": "Mee-noo-teh",
+        "meaning": "Minute",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 9,
+        "when_to say": "Used to refer to a unit of time equal to 60 seconds.",
+        "example": [
+        {
+            "german": "Es dauert noch fünf Minuten.",
+            "pronunciation": "Es dow-ert nokh fünf Mee-noo-ten",
+            "meaning": "It takes five more minutes."
+        }
+        ]
+    },
+    {
+        "id": "word090",
+        "word": "Sekunde",
+        "pronunciation": "Ze-koon-deh",
+        "meaning": "Second",
+        "part_of_speech": "Noun",
+        "difficulty": "Easy",
+        "lesson_no": 10,
+        "when_to say": "Used to refer to a unit of time equal to one sixtieth of a minute.",
+        "example": [
+        {
+            "german": "Warte eine Sekunde.",
+            "pronunciation": "Var-teh ine Ze-koon-deh",
+            "meaning": "Wait a second."
+        }
+        ]
+    }
+]
+  
