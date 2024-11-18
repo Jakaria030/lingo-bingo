@@ -1,11 +1,11 @@
 import { Link, useNavigate } from 'react-router-dom';
-import { FaGoogle } from "react-icons/fa";
 import { useContext } from 'react';
 import { AuthContext } from '../provider/AuthProvider';
+import { FaGoogle } from 'react-icons/fa';
 
 
 const Register = () => {
-    const {createNewUser, setUser, updateUserProfile} = useContext(AuthContext);
+    const {createNewUser, setUser, updateUserProfile, signInWithGoogle} = useContext(AuthContext);
     const navigate = useNavigate();
 
 
@@ -17,6 +17,14 @@ const Register = () => {
         const photo = form.photo.value;
         const email = form.email.value;
         const password = form.password.value;
+
+        // valid password check
+        const passwordRegex = /^(?=.*[A-Z])(?=.*[a-z]).{6,}$/;
+
+        if(!passwordRegex.test(password)){
+            alert("Password must contain at least one uppercase letter, one lowercase letter, and be at least six characters long");
+            return;
+        }
 
         // User registration
         createNewUser(email, password)
@@ -32,7 +40,18 @@ const Register = () => {
         }).catch(err => {
             alert(err);
         });
-    } 
+    };
+
+    // Sign in with google
+    const continueWithGoogle = () => {
+        signInWithGoogle()
+        .then(result => {
+            setUser(result.user);
+            navigate(location?.state ? location.state : "/");
+        }).catch(err => {
+            alert("Email is not valid");
+        });
+    };
 
     return (
         <div className='w-11/12 sm:w-10/12 mx-auto pt-5'>
@@ -73,7 +92,7 @@ const Register = () => {
                         </div>
                     </form>
                     <div className="divider">or</div>
-                    <button className="flex items-center justify-center gap-2 bg-primary px-4 py-2 rounded-lg text-white mx-8">
+                    <button onClick={continueWithGoogle} className="flex items-center justify-center gap-2 bg-primary px-4 py-2 rounded-lg text-white mx-8">
                         <FaGoogle></FaGoogle>
                         <span>Continue With Google</span>
                     </button>

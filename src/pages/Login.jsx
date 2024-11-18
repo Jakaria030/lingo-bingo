@@ -4,11 +4,12 @@ import { useContext, useState } from 'react';
 import { AuthContext } from '../provider/AuthProvider';
 
 const Login = () => {
-    const {signInUser, setUser} = useContext(AuthContext);
+    const {signInUser, setUser, signInWithGoogle} = useContext(AuthContext);
 
     const location = useLocation();
     const navigate = useNavigate();
 
+    // Form submit
     const handleSubmit = (e) => {
         e.preventDefault();
         const form = e.target;
@@ -23,6 +24,17 @@ const Login = () => {
             navigate(location?.state ? location.state : "/");
         }).catch(err => {
             alert("Enter valid credential");
+        });
+    };
+
+    // Sign in with google
+    const continueWithGoogle = () => {
+        signInWithGoogle()
+        .then(result => {
+            setUser(result.user);
+            navigate(location?.state ? location.state : "/");
+        }).catch(err => {
+            alert("Email is not valid");
         });
     };
 
@@ -54,7 +66,7 @@ const Login = () => {
                     </div>
                 </form>
                 <div className="divider">or</div>
-                <button className="flex items-center justify-center gap-2 bg-primary px-4 py-2 rounded-lg text-white mx-8">
+                <button onClick={continueWithGoogle} className="flex items-center justify-center gap-2 bg-primary px-4 py-2 rounded-lg text-white mx-8">
                     <FaGoogle></FaGoogle>
                     <span>Continue With Google</span>
                 </button>
