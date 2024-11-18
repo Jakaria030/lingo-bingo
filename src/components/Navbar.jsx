@@ -15,7 +15,9 @@ const Navbar = () => {
         <NavLink to="/start-learning">Start-Learning</NavLink>
         <NavLink to="/tutorials">Tutorials</NavLink>
         <NavLink to="/about">About Us</NavLink>
-        <NavLink to="/profile">My Profile</NavLink>
+        {
+            user && <NavLink to="/profile">My Profile</NavLink>
+        }
     </>
 
     return (
@@ -33,7 +35,7 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <Link className="size-16 hidden sm:flex">
+                <Link to="/" className="size-16 hidden sm:flex">
                     <img className="w-full p-2" src={logo} />
                 </Link>
             </div>

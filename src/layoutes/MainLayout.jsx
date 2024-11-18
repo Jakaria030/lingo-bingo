@@ -1,9 +1,10 @@
+import { Outlet } from "react-router-dom";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 
 const MainLayout = () => {
     return (
-        <div className="font-inter bg-background">
+        <div className="font-inter">
             {/* Header section */}
             <header>
                 <Header></Header>
@@ -12,8 +13,8 @@ const MainLayout = () => {
 
 
             {/* Main section */}
-            <main>
-                main
+            <main >
+                <Outlet></Outlet>
             </main>
         </div>
     );
