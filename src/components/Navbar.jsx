@@ -35,8 +35,9 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <Link to="/" className="size-16 hidden sm:flex">
-                    <img className="w-full p-2" src={logo} />
+                <Link to="/" className="size-16 flex items-center">
+                    <img className="w-full p-2 hidden sm:flex" src={logo} />
+                    <h2 className="flex gap-1 text-2xl font-bold ml-2"><span className="text-primary/80">Lingo</span> <span>Bingo</span></h2>
                 </Link>
             </div>
 
