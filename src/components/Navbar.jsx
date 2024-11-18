@@ -21,7 +21,7 @@ const Navbar = () => {
     </>
 
     return (
-
+        <div className="bg-base-200">
         <div className="navbar w-11/12 sm:w-10/12 mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
@@ -51,7 +51,7 @@ const Navbar = () => {
                 {
                     user ? <div className="flex items-center justify-center gap-5">
                         {
-                            user?.photoURL && <img className="size-14 rounded-full" src={user.photoURL} alt="Image" />
+                            user?.photoURL && <img className="size-14 rounded-full ring-2 ring-primary" src={user.photoURL} alt="Image" />
                         }
                         <button onClick={signOutUser} className="px-4 py-1 sm:px-6 sm:py-2 bg-primary text-white">Logout</button>
                     </div>
@@ -59,6 +59,7 @@ const Navbar = () => {
                 }
                 
             </div>
+        </div>
         </div>
     );
 };
