@@ -4,7 +4,7 @@ import Header from "../components/Header";
 
 const AuthLayout = () => {
     return (
-        <div className="font-inter bg-background">
+        <div className="font-inter bg-background overflow-y-scroll">
             <header>
                 <Header></Header>
                 <Navbar></Navbar>

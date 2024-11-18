@@ -41,7 +41,7 @@ const Footer = () => {
                 </nav>
             </div>
 
-            <p className="text-center my-10 pb-10 text-txtColor mx-3">Copyright © {new Date().getFullYear()} - All right reserved by Lingo Bingo.</p>
+            <p className="text-center mt-10 pb-10 text-txtColor mx-3">Copyright © {new Date().getFullYear()} - All right reserved by Lingo Bingo.</p>
         </footer>
     );
 };
