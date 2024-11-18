@@ -5,10 +5,6 @@ import Loader from "../pages/Loader";
 const Header = () => {
     const {user, loading} = useContext(AuthContext);
 
-    if(loading){
-        return <Loader></Loader>;
-    }
-
     return (
         <div className="w-11/12 sm:w-10/12 mx-auto pt-5">
         {

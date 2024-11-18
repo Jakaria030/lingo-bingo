@@ -1,7 +1,6 @@
 import { useContext, useState } from "react";
 import { FaRegUserCircle } from "react-icons/fa";
 import { IoMdMenu } from "react-icons/io";
-import { RxCross2 } from "react-icons/rx";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
 import { AuthContext } from "../provider/AuthProvider";
@@ -49,8 +48,7 @@ const Navbar = () => {
                 {
                     user ? <div className="flex items-center justify-center gap-5">
                         {
-                            user?.photoURL ? <img className="size-14 rounded-full" src={user.photoURL} alt="Image" />
-                            : <FaUserCircle className="text-3xl"></FaUserCircle>
+                            user?.photoURL && <img className="size-14 rounded-full" src={user.photoURL} alt="Image" />
                         }
                         <button onClick={signOutUser} className="px-4 py-1 sm:px-6 sm:py-2 bg-primary text-white">Logout</button>
                     </div>

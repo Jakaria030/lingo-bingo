@@ -1,26 +1,49 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { FaGoogle } from "react-icons/fa";
+import { useContext, useState } from 'react';
+import { AuthContext } from '../provider/AuthProvider';
 
 const Login = () => {
+    const {signInUser, setUser} = useContext(AuthContext);
+
+    const location = useLocation();
+    const navigate = useNavigate();
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const form = e.target;
+        const email = form.email.value;
+        const password = form.password.value;
+
+        // Login user
+        signInUser(email, password)
+        .then(result => {
+            setUser(result.user);
+            form.reset();
+            navigate(location?.state ? location.state : "/");
+        }).catch(err => {
+            alert("Enter valid credential");
+        });
+    };
 
     return (
         <div className='w-11/12 sm:w-10/12 mx-auto pt-5'>
             <div className="min-h-[70vh] flex justify-center items-center">
             <div className="card bg-base-100 max-w-md w-full shadow-lg py-5">
                 <h2 className='text-xl text-txtColor font-bold text-center'>Login your account.</h2>
-                <form  className="card-body py-0">
+                <form onSubmit={handleSubmit}  className="card-body py-0">
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text to-txtColor">Email</span>
                         </label>
-                        <input type="email" placeholder="email" className="input input-bordered to-txtColor" required />
+                        <input type="email" name='email' placeholder="email" className="input input-bordered to-txtColor" required />
                     </div>
 
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text to-txtColor">Password</span>
                         </label>
-                        <input type="password" placeholder="password" className="input input-bordered" required />
+                        <input type="password" name='password' placeholder="password" className="input input-bordered" required />
                         <label className="label">
                             <a href="#" className="label-text-alt link link-hover to-txtColor">Forgot password?</a>
                         </label>
