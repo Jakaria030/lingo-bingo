@@ -1,8 +1,10 @@
 import userImg from "../assets/user.jpeg";
+
+
 const Testimonial = () => {
 
     return (
-        <section className="bg-white py-12">
+        <div className="bg-white py-12">
             <div className="max-w-7xl mx-auto text-center">
                 <div className="pb-5">
                     <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-2">
@@ -50,7 +52,7 @@ const Testimonial = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     );
 };
 

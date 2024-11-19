@@ -10,7 +10,7 @@ const SuccessSection = () => {
     ];
 
     return (
-        <section className="py-12">
+        <div className="py-12">
             <div className="max-w-4xl mx-auto text-center">
                 <div className='pb-10'>
                     <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-2"><span className='text-primary/80'>Our</span> Success</h2>
@@ -40,7 +40,7 @@ const SuccessSection = () => {
                     ))}
                 </div>
             </div>
-        </section>
+        </div>
     );
 };
 
