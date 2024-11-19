@@ -10,6 +10,8 @@ import Tutorials from "../pages/Tutorials";
 import About from "../pages/About";
 import PrivateRoute from "./PrivateRoute";
 import Profile from "../pages/Profile";
+import UpdateProfile from "../components/UpdateProfile";
+import ProfileInformation from "../components/ProfileInformation";
 
 const router = createBrowserRouter([
     {
@@ -27,7 +29,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/tutorials",
-                element: <Tutorials></Tutorials>,
+                element: <PrivateRoute><Tutorials></Tutorials></PrivateRoute>,
             },
             {
                 path: "/about",
@@ -37,8 +39,22 @@ const router = createBrowserRouter([
                 path: "/profile",
                 element: <PrivateRoute>
                     <Profile></Profile>
-                </PrivateRoute>
-            }
+                </PrivateRoute>,
+                children: [
+                    {
+                        path: "/profile",
+                        element: <Navigate to="/profile/information" />,
+                    },
+                    {
+                        path: "/profile/information",
+                        element: <ProfileInformation></ProfileInformation>
+                    },
+                    {
+                        path: "/profile/update",
+                        element: <UpdateProfile></UpdateProfile>,
+                    }
+                ],
+            },
         ],
     },
     {
@@ -47,7 +63,7 @@ const router = createBrowserRouter([
         children: [
             {
                 path: "/auth",
-                element: <Navigate to="/auth/login"></Navigate>
+                element: <Navigate to="/auth/login"></Navigate>,
             },
             {
                 path: "/auth/login",

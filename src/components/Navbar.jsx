@@ -1,5 +1,4 @@
-import { useContext, useState } from "react";
-import { FaRegUserCircle } from "react-icons/fa";
+import { useContext } from "react";
 import { IoMdMenu } from "react-icons/io";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
@@ -7,7 +6,7 @@ import { AuthContext } from "../provider/AuthProvider";
 import { FaUserCircle } from "react-icons/fa";
 
 const Navbar = () => {
-   
+
     const {user, signOutUser} = useContext(AuthContext);
 
     const links = <>
@@ -26,12 +25,11 @@ const Navbar = () => {
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="lg:hidden">
-                        {/* <RxCross2></RxCross2> */}
                         <IoMdMenu className="text-3xl"></IoMdMenu>
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm dropdown-content bg-base-100 rounded-md space-y-1 z-[1] mt-3 w-52 p-2 shadow">
                         {links}
                     </ul>
                 </div>
