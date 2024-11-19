@@ -20,7 +20,7 @@ const Banner = () => {
     };
 
     return (
-        <div className="relative my-5">
+        <div className="w-11/12 sm:w-10/12 mx-auto relative my-5">
             <div>
                 <img className="w-full h-[200px] sm:h-[300px] md:h-[400] lg:h-[500px]" src={slide[slideNumber]} />
             </div>

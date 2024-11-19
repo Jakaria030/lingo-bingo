@@ -3,7 +3,7 @@ import { FaCheck } from "react-icons/fa";
 
 const AboutSection = () => {
     return (
-        <div className="py-10">
+        <div className="w-11/12 sm:w-10/12 mx-auto py-10">
             <div className="flex flex-col items-center gap-2">
                 <h1 className="text-center mx-5 text-2xl sm:text-3xl font-extrabold">About <span className="text-primary/80">Lingo Bingo</span></h1>
                 <p className="max-w-3xl text-center mx-5">At Lingo Bingo, our mission is to make learning German vocabulary engaging, accessible, and enjoyable for everyone.</p>

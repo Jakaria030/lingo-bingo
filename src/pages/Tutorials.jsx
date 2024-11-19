@@ -15,30 +15,35 @@ const Tutorials = () => {
     ];
 
     return (
-        <div className='w-11/12 sm:w-10/12 mx-auto'>
+        <div>
             {/* Banner section */}
-            <SharedBanner
-                title={title}
-                subTitle={subTitle}
-            ></SharedBanner>
+            <section>
+                <SharedBanner
+                    title={title}
+                    subTitle={subTitle}
+                ></SharedBanner>
+            </section>
 
-            <section className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10 my-10'>
+            {/* Tutorial section */}
+            <section className='w-11/12 sm:w-10/12 mx-auto'>
+                <section className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10 my-10'>
 
-                {
-                    videos.map((video, indx) => <div key={indx} className="sm:h-60">
-                        <div className="w-full h-full">
-                            <iframe
-                                src={video.src}
-                                title="YouTube video player"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-                                allowFullScreen
-                                referrerPolicy="strict-origin-when-cross-origin"
-                                className="w-full h-full rounded-lg"
-                            ></iframe>
-                        </div>
-                    </div>)
-                }
+                    {
+                        videos.map((video, indx) => <div key={indx} className="sm:h-60">
+                            <div className="w-full h-full">
+                                <iframe
+                                    src={video.src}
+                                    title="YouTube video player"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                                    allowFullScreen
+                                    referrerPolicy="strict-origin-when-cross-origin"
+                                    className="w-full h-full rounded-lg"
+                                ></iframe>
+                            </div>
+                        </div>)
+                    }
 
+                </section>
             </section>
         </div>
     );

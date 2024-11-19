@@ -1,7 +1,7 @@
 
 const CTASection = () => {
   return (
-    <div className="bg-gradient-to-r from-blue-500 to-cyan-400 text-white my-5 py-12">
+    <div className="w-11/12 sm:w-10/12 mx-auto my-5 bg-gradient-to-r from-blue-500 to-cyan-400 text-white py-12">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl sm:text-4xl font-bold mb-2">Join the Winter Adventure</h2>
         <p className="text-lg mb-8">

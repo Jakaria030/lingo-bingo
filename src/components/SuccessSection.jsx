@@ -11,7 +11,7 @@ const SuccessSection = () => {
 
     return (
         <div className="py-12">
-            <div className="max-w-4xl mx-auto text-center">
+            <div className="w-11/12 sm:w-10/12 mx-auto text-center">
                 <div className="pb-10">
                     <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-2">
                         Our <span className="text-primary/80">Success</span>
@@ -20,7 +20,7 @@ const SuccessSection = () => {
                         Empowering thousands of learners to achieve their language goals.
                     </p>
                 </div>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     {data.map((item, index) => {
                         const { ref, inView } = useInView({ threshold: 0.1 });
                         return (
