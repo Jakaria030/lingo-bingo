@@ -25,7 +25,7 @@ const Tutorials = () => {
             <section className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10 my-10'>
 
                 {
-                    videos.map((video, indx) => <div className="sm:h-60">
+                    videos.map((video, indx) => <div key={indx} className="sm:h-60">
                         <div className="w-full h-full">
                             <iframe
                                 src={video.src}
