@@ -1,5 +1,5 @@
 
-const SharedBanner = ({ title, subTitle }) => {
+const SharedBanner = ({ title, subTitle="" }) => {
     return (
         <section className="bg-gradient-to-r from-blue-600 to-cyan-400 text-white py-12">
             <div className="max-w-4xl mx-auto text-center">
