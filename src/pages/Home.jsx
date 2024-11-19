@@ -1,12 +1,18 @@
 import React from 'react';
 import Banner from '../components/Banner';
 import AboutSection from '../components/AboutSection';
+import SuccessSection from '../components/SuccessSection';
+import CTASection from '../components/CTASection';
+import Testimonial from '../components/Testimonial';
 
 const Home = () => {
     return (
         <div className='w-11/12 sm:w-10/12 mx-auto'>
             <Banner></Banner>
             <AboutSection></AboutSection>
+            <SuccessSection></SuccessSection>
+            <Testimonial></Testimonial>
+            <CTASection></CTASection>
         </div>
     );
 };
