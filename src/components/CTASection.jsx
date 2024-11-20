@@ -1,6 +1,7 @@
+import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
 const CTASection = () => {
   useEffect(() => {
@@ -15,9 +16,9 @@ const CTASection = () => {
           Ready to take your language skills to the next level? Start your
           journey today!
         </p>
-        <button data-aos="zoom-in" className="bg-white text-blue-500 px-6 py-3 rounded-lg font-bold shadow-md hover:bg-gray-100 transition-all duration-300">
+        <Link to="/start-learning" data-aos="zoom-in" className="bg-white text-blue-500 px-6 py-3 rounded-lg font-bold shadow-md hover:bg-gray-100 transition-all duration-300">
           Get Started Now
-        </button>
+        </Link>
       </div>
     </div>
   );

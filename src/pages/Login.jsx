@@ -1,13 +1,15 @@
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { FaGoogle } from "react-icons/fa";
-import { useContext, useState } from 'react';
+import { useContext, useRef, useState } from 'react';
 import { AuthContext } from '../provider/AuthProvider';
 
 const Login = () => {
     const {signInUser, setUser, signInWithGoogle} = useContext(AuthContext);
-
+    
+    const emailRef = useRef(null);
     const location = useLocation();
     const navigate = useNavigate();
+    const [loginError, setLoginError] = useState("");
 
     // Form submit
     const handleSubmit = (e) => {
@@ -16,6 +18,7 @@ const Login = () => {
         const email = form.email.value;
         const password = form.password.value;
 
+        setLoginError("");
         // Login user
         signInUser(email, password)
         .then(result => {
@@ -23,19 +26,27 @@ const Login = () => {
             form.reset();
             navigate(location?.state ? location.state : "/");
         }).catch(err => {
-            alert("Enter valid credential");
+            setLoginError("Enter valid credential");
         });
     };
 
     // Sign in with google
     const continueWithGoogle = () => {
+        setLoginError("");
+
         signInWithGoogle()
         .then(result => {
             setUser(result.user);
             navigate(location?.state ? location.state : "/");
         }).catch(err => {
-            alert("Email is not valid");
+            setLoginError("Email is not valid");
         });
+    };
+
+    // Hanle Reset
+    const handleReset = (e) => {
+        e.preventDefault();
+        navigate("/auth/reset-password", {state: {email: emailRef.current.value}});
     };
 
     return (
@@ -48,7 +59,7 @@ const Login = () => {
                         <label className="label">
                             <span className="label-text to-txtColor">Email</span>
                         </label>
-                        <input type="email" name='email' placeholder="email" className="input input-bordered to-txtColor" required />
+                        <input type="email" ref={emailRef} name='email' placeholder="email" className="input input-bordered to-txtColor" required />
                     </div>
 
                     <div className="form-control">
@@ -57,8 +68,13 @@ const Login = () => {
                         </label>
                         <input type="password" name='password' placeholder="password" className="input input-bordered" required />
                         <label className="label">
-                            <a href="#" className="label-text-alt link link-hover to-txtColor">Forgot password?</a>
+                            <button onClick={handleReset} className="label-text-alt link link-hover to-txtColor">Forgot password?</button>
                         </label>
+                        {
+                            loginError && <label className='label'>
+                                <span className='text-accent'>{loginError}</span>
+                            </label>
+                        }
                     </div>
 
                     <div className="form-control mt-2">

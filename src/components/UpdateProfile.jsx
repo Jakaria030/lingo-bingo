@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../provider/AuthProvider";
+import { Bounce, ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const UpdateProfile = () => {
     const {user, updateUserProfile} = useContext(AuthContext);
@@ -15,14 +17,33 @@ const UpdateProfile = () => {
 
         updateUserProfile({displayName: name, photoURL: photo})
         .then(() => {
-            alert("Update success");
+            customAlert("Profile Updated.");
         }).catch(err => {
-            alert("Update unsuccess.");
+            customAlert("Profile Not Updated.");
         });
-        navigate("/profile/information");
-    }
+    };
+
+    const customAlert = (msg) => {
+        toast.success(msg, {
+            position: "top-center",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            transition: Bounce,
+        });
+
+        const timer = setTimeout(() => {
+            navigate("/profile/information");
+        }, 3000);
+    };
+
     return (
         <div className="w-11/12 sm:w-10/12 mx-auto ">
+            
             <div className="mx-auto bg-base-100 w-full max-w-96 border border-primary/90 rounded-md shrink-0 h-[342px] my-10">
                 <form onSubmit={updateUserData} className="card-body">
                     <div className="form-control">
@@ -43,6 +64,7 @@ const UpdateProfile = () => {
                     </div>
                 </form>
             </div>
+            <ToastContainer />
         </div>
     );
 };

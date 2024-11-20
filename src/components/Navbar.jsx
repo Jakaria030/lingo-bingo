@@ -3,7 +3,6 @@ import { IoMdMenu } from "react-icons/io";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
 import { AuthContext } from "../provider/AuthProvider";
-import { FaUserCircle } from "react-icons/fa";
 
 const Navbar = () => {
 

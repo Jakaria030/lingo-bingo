@@ -9,7 +9,7 @@ import { useEffect } from "react";
 const Testimonial = () => {
     useEffect(() => {
         AOS.init();
-    }, []);
+    },[]);
 
     const userComment = [
         {id: 1, name: "Emily Frost", comment: "This platform made learning a new language a magical experience. Highly recommend it!", image: user1},

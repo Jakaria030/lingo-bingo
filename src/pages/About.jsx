@@ -92,7 +92,7 @@ const About = () => {
 
                     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5 mb-10">
                         {
-                            skills.map((skill) => <div key={skill.id} className="border border-primary/80 p-5 flex flex-col items-center justify-center rounded-md">
+                            skills.map((skill) => <div key={skill.id} className="border border-primary/80 p-5 flex flex-col items-center justify-center rounded-md hover:bg-primary/10">
                             <img className="size-20" src={skill.technology} />
                             <h3 className="text-xl font-semibold">{skill.title}</h3>
                         </div>)
@@ -109,7 +109,7 @@ const About = () => {
                         {/* Card */}
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                             {projects.map((project, index) => (
-                                <div key={index} className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+                                <div key={index} className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow hover:shadow-xl">
                                     <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
                                     <div className="p-6">
                                         <h3 className="text-xl font-bold text-gray-800">{project.title}</h3>

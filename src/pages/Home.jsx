@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import Banner from '../components/Banner';
 import AboutSection from '../components/AboutSection';
 import SuccessSection from '../components/SuccessSection';

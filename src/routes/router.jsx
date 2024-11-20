@@ -13,6 +13,7 @@ import Profile from "../pages/Profile";
 import UpdateProfile from "../components/UpdateProfile";
 import ProfileInformation from "../components/ProfileInformation";
 import Lessons from "../components/Lessons";
+import ForgotPassword from "../pages/ForgotPassword";
 
 const router = createBrowserRouter([
     {
@@ -80,6 +81,10 @@ const router = createBrowserRouter([
                 path: "/auth/register",
                 element: <Register></Register>,
             },
+            {
+                path:"/auth/reset-password",
+                element: <ForgotPassword></ForgotPassword>,
+            }
         ],
     },
 ]);

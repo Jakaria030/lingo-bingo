@@ -1,4 +1,4 @@
-import { createUserWithEmailAndPassword, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from "firebase/auth";
+import { createUserWithEmailAndPassword, GoogleAuthProvider, onAuthStateChanged, sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from "firebase/auth";
 import { createContext, useEffect, useState } from "react";
 import { auth } from "../firebase/firebase.config";
 
@@ -53,6 +53,11 @@ const AuthProvider = ({children}) => {
 
     }, [user, setUser]);
 
+    // Reset password
+    const forgotPassword = (email) => {
+        return sendPasswordResetEmail(auth, email)
+    };
+
     // Words fetch
     useEffect(()=> {
         fetch("/german-words.json")
@@ -71,6 +76,7 @@ const AuthProvider = ({children}) => {
         updateUserProfile,
         signInWithGoogle,
         words,
+        forgotPassword
     }
 
     return(

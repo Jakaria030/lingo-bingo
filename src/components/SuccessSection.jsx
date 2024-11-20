@@ -6,10 +6,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const SuccessSection = () => {
-
     useEffect(() => {
         AOS.init();
-    }, []);
+    },[]);
 
     const {words} = useContext(AuthContext);
     const lessons = [];

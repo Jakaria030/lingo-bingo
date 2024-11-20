@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { AuthContext } from '../provider/AuthProvider';
 import { FaGoogle } from 'react-icons/fa';
 
@@ -8,6 +8,7 @@ const Register = () => {
     const {createNewUser, setUser, updateUserProfile, signInWithGoogle} = useContext(AuthContext);
     const navigate = useNavigate();
 
+    const [registerError, setRegisterError] = useState("");
 
     // Form submit
     const handleSubmit = (e) => {
@@ -17,39 +18,52 @@ const Register = () => {
         const photo = form.photo.value;
         const email = form.email.value;
         const password = form.password.value;
-
+        
+        setRegisterError("");
         // valid password check
-        const passwordRegex = /^(?=.*[A-Z])(?=.*[a-z]).{6,}$/;
+        if(password.length < 6){
+            setRegisterError("Password must be at least 6 characters long.")
+            return;
+        }
 
-        if(!passwordRegex.test(password)){
-            alert("Password must contain at least one uppercase letter, one lowercase letter, and be at least six characters long");
+        const uppercaseRegex = /[A-Z]/;
+        if(!uppercaseRegex.test(password)){
+            setRegisterError("Password must contain at least one uppercase letter.");
+            return;
+        }
+
+        const lowercaseRegex = /[a-z]/;
+        if(!lowercaseRegex.test(password)){
+            setRegisterError("Password must contain at least one lowercase letter");
             return;
         }
 
         // User registration
         createNewUser(email, password)
         .then(result => {
+            setRegisterError("");
             setUser(result);
             // User profile update with name and image
             updateUserProfile({displayName: name, photoURL: photo})
             .then(()=> {
                 navigate("/");
             }).catch(err => {
-                alert(err);
+                setRegisterError(err.message);
             });
         }).catch(err => {
-            alert(err);
+            setRegisterError(err.message);
         });
     };
 
     // Sign in with google
     const continueWithGoogle = () => {
+        setRegisterError("");
         signInWithGoogle()
         .then(result => {
             setUser(result.user);
             navigate(location?.state ? location.state : "/");
         }).catch(err => {
-            alert("Email is not valid");
+            setRegisterError("Email is not valid");
         });
     };
 
@@ -86,6 +100,12 @@ const Register = () => {
                             </label>
                             <input type="password" name="password" placeholder="password" className="input input-bordered" required />
                         </div>
+
+                        {
+                            registerError && <label className='label'>
+                                <span className='text-accent'>{registerError}</span>
+                            </label>
+                        }
 
                         <div className="form-control mt-2">
                             <button className="px-4 py-2 rounded-lg bg-primary text-white">Register</button>

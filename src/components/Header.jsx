@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { AuthContext } from "../provider/AuthProvider";
-import Loader from "../pages/Loader";
 
 const Header = () => {
     const { user } = useContext(AuthContext);
