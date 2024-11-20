@@ -8,6 +8,7 @@ export const AuthContext = createContext(null);
 const AuthProvider = ({children}) => {
     const [user, setUser] = useState(null);
     const [loading, setLoading] = useState(true);
+    const [words, setWords] = useState([]);
 
     const provider = new GoogleAuthProvider();
 
@@ -50,7 +51,14 @@ const AuthProvider = ({children}) => {
             unsubscribe();
         };
 
-    }, [user, setUser])
+    }, [user, setUser]);
+
+    // Words fetch
+    useEffect(()=> {
+        fetch("/german-words.json")
+        .then(res => res.json())
+        .then(data => setWords(data))
+    }, []);
 
     // Authuntication Infromation
     const authInfo = {
@@ -62,6 +70,7 @@ const AuthProvider = ({children}) => {
         loading,
         updateUserProfile,
         signInWithGoogle,
+        words,
     }
 
     return(

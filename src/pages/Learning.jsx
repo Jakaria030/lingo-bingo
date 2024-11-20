@@ -21,7 +21,7 @@ const Learning = () => {
                 {/* Card section */}
                 <section className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 py-12'>
                     {
-                        lessonNo.map((lesson, indx) => <Link to={`/lesson${lesson}`} key={indx} className='p-5 bg-base-200 min-h-32 flex items-center justify-center shadow-md hover:scale-105 transition duration-100'>
+                        lessonNo.map((lesson, indx) => <Link to={`/lessons/${lesson}`} key={indx} className='p-5 bg-base-200 min-h-32 flex items-center justify-center shadow-md hover:scale-105 transition duration-100'>
                             <h1 className='text-xl font-semibold'>Lesson No - {lesson}</h1>
                         </Link>
                         )

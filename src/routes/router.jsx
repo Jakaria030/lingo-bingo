@@ -12,6 +12,7 @@ import PrivateRoute from "./PrivateRoute";
 import Profile from "../pages/Profile";
 import UpdateProfile from "../components/UpdateProfile";
 import ProfileInformation from "../components/ProfileInformation";
+import Lessons from "../components/Lessons";
 
 const router = createBrowserRouter([
     {
@@ -34,6 +35,12 @@ const router = createBrowserRouter([
             {
                 path: "/about",
                 element: <About></About>,
+            },
+            {
+                path: "/lessons/:lesson_no",
+                element: <PrivateRoute>
+                    <Lessons></Lessons>
+                </PrivateRoute>,
             },
             {
                 path: "/profile",

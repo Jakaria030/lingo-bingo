@@ -1,5 +1,6 @@
 import React from 'react';
 import SharedBanner from '../components/SharedBanner';
+import { Link } from 'react-router-dom';
 
 const Tutorials = () => {
     const title = "Tutorials";
@@ -44,7 +45,13 @@ const Tutorials = () => {
                     }
 
                 </section>
+
             </section>
+
+            <section className='w-11/12 sm:w-10/12 mx-auto flex items-center justify-center my-5'>   
+                <Link to="/start-learning" className="bg-blue-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-600 transition duration-300">Learn Vocabularies</Link>
+            </section>
+
         </div>
     );
 };
