@@ -1,18 +1,45 @@
+import { useContext, useEffect, useState } from 'react';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
+import { AuthContext } from '../provider/AuthProvider';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const SuccessSection = () => {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
+    const {words} = useContext(AuthContext);
+    const lessons = [];
+
+    // Unique lesson count
+    for(const word of words){
+        if(!lessons.includes(word.lesson_no)){
+            lessons.push(word.lesson_no);
+        }    
+    }
+
+    // For count tutorial
+    const [videos, setVideos] = useState([]);
+    useEffect(() => {
+        fetch("/tutorials.json")
+        .then(res => res.json())
+        .then(data => setVideos(data));
+    }, []);
+
     const data = [
-        { title: 'Users', count: 2500 },
-        { title: 'Lessons', count: 120 },
-        { title: 'Vocabulary', count: 8000 },
-        { title: 'Tutorials', count: 50 },
+        { title: 'Users', count: 500 },
+        { title: 'Lessons', count: lessons.length },
+        { title: 'Vocabulary', count: words.length },
+        { title: 'Tutorials', count: videos.length },
     ];
 
     return (
         <div className="py-12">
             <div className="w-11/12 sm:w-10/12 mx-auto text-center">
-                <div className="pb-10">
+                <div data-aos="zoom-in" className="pb-10">
                     <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-2">
                         Our <span className="text-primary/80">Success</span>
                     </h2>
