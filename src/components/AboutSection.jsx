@@ -7,9 +7,9 @@ import { useEffect } from "react";
 const AboutSection = () => {
     useEffect(() => {
         AOS.init({
-            offset: 200,  // Global offset setting
-            duration: 400,  // Animation duration in milliseconds
-            once: false,  // Whether animation should happen only once
+            offset: 200,
+            duration: 400,
+            once: false,
         });
     },[]);
 
