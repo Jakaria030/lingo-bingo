@@ -1,5 +1,6 @@
 import SharedBanner from '../components/SharedBanner';
 import { Link } from 'react-router-dom';
+import Title from '../components/Title';
 
 const Learning = () => {
     const title = "Let’s Learn";
@@ -9,6 +10,7 @@ const Learning = () => {
 
     return (
         <div>
+            <Title title="Start-Learning"></Title>
             {/*Banner section */}
             <section>
                 <SharedBanner

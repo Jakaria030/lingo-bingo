@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import SharedBanner from '../components/SharedBanner';
 import { Link } from 'react-router-dom';
+import Title from '../components/Title';
 
 const Tutorials = () => {
     const title = "Tutorials";
@@ -16,6 +17,7 @@ const Tutorials = () => {
 
     return (
         <div>
+            <Title title="Tutorials"></Title>
             {/* Banner section */}
             <section>
                 <SharedBanner

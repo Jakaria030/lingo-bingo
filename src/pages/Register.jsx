@@ -2,6 +2,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useContext, useState } from 'react';
 import { AuthContext } from '../provider/AuthProvider';
 import { FaGoogle } from 'react-icons/fa';
+import Title from '../components/Title';
 
 
 const Register = () => {
@@ -69,6 +70,7 @@ const Register = () => {
 
     return (
         <div className='w-11/12 sm:w-10/12 mx-auto pt-5'>
+            <Title title="Register"></Title>
             <div className='min-h-[70vh] flex justify-center items-center'>
                 <div className="card bg-base-100 max-w-md w-full shadow-lg py-5">
                     <h2 className='text-xl text-txtColor font-bold text-center'>Register your account.</h2>

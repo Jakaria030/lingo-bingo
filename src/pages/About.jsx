@@ -7,14 +7,15 @@ import jsIcon from "../assets/js.png";
 import reactIcon from "../assets/react.png";
 import firebaseIcon from "../assets/firebase.png";
 import cplusIcon from "../assets/c++.png";
-import pythonIcon from "../assets/python.png";
+import pythonIcon from "../assets/python.png"; 
 import msaSchool from "../assets/msa.png";
 import peddy from "../assets/peddy.png";
 import rinterio from "../assets/rinterio.png";
+import Title from "../components/Title";
 
 const About = () => {
     const title = "About Us";
-    const subTitle = "Learn more about who we are, our expertise, and the projects we’ve built.";
+    const subTitle = "Learn more about who we are, our expertise, and the projects we've built.";
 
     const skills = [
         {id: 1, technology: htmlIcon, title: "HTML"},
@@ -59,6 +60,7 @@ const About = () => {
 
     return (
         <div>
+            <Title title="About Us"></Title>
             {/* Banner section */}
             <section>
                 <SharedBanner
@@ -109,7 +111,7 @@ const About = () => {
                         {/* Card */}
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                             {projects.map((project, index) => (
-                                <div key={index} className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow hover:shadow-xl">
+                                <div key={index} className="bg-white shadow-md rounded-lg overflow-hidden transition-shadow hover:shadow-xl">
                                     <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
                                     <div className="p-6">
                                         <h3 className="text-xl font-bold text-gray-800">{project.title}</h3>
