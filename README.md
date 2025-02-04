@@ -38,11 +38,13 @@ The following npm packages were used in the project:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/programming-hero-web-course1/b10-a9-authentication-Jakaria030.git
-
-2. Install dependencies:
+   git clone https://github.com/Jakaria030/lingo-bingo.git
+2. Change the directory
+   ```bash
+   cd lingo-bingo
+3. Install dependencies:
    ```bash
    npm install
-3. Run the development server:
+4. Run the development server:
     ```bash
     npm run dev
